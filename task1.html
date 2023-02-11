@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title> SURVEY FORM</title>
+     <link rel="stylesheet"  type="text/css" href="task1.css"> 
+   
+</head>
+<body>
+     <center>
+     <div class="heading">
+      <h1 id="head" style="font-family:'Courier New'">  𝓢𝓱𝓮𝓪 𝓑𝓮𝓪𝓾𝓽𝔂 𝓟𝓻𝓸𝓭𝓾𝓬𝓽  </h1>   
+       <h2 id="subheading">Thank you for taking time to help us to improve the platform</h2>
+        </center>
+      </div>
+      <form>
+         <div id="content1">
+       <label> Name: </label><br><br>
+       <input type="name" name="name" placeholder="Enter your name" class= "box"><br><br>
+       <label> Mobile Number: </label><br><br>
+         <input type="Phone number" name="phone number" placeholder="Enter your mobile number" class= "box"><br><br>
+       <label> Email ID: </label><br><br>
+         <input type="email" name="email" placeholder="Enter your Email ID" class= "box"><br><br>
+       <label> Enter Your age :</label><br><br>
+        <input type="age" name="age" placeholder="Enter your age" class="box"><br><br>
+        <div class="form-control">
+			<label for="role" id="label-role">
+				Which of our products are you currently using?
+			</label><br><br>
+			
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+				<option value="Skin care product"> Skin care product</option>
+				<option value="Hair care product"> Hair care product</option>
+				<option value="Color cosmetic"> Color cosmetic</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+                <br><br>
+		<div class="form-control">
+			<label>
+				How do you rate our product based on your experience?
+			</label><br><br>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">  Excellent  </input><br><br>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">  Great  </input><br><br>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">  Not good  </input><br><br>
+			</label>
+		</div><br>
+            <div class="form-control">
+			<label>
+				How likely are you to buy again from us?
+			</label><br><br>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">  Very likely </input><br><br>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">  likely  </input><br><br>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">  Not likely  </input><br><br>
+			</label>
+                        <label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">  Not likely at all  </input><br><br>
+			</label>
+		</div>
+        
+		<div class="form-control">
+			<label for="comment">
+				Any comments or suggestions
+			</label><br><br>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+          
+		<center><button type="submit" value="submit">
+			Submit
+            
+		</button></center>
+   </div>
+ </form>
+       
